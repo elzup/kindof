@@ -2,4 +2,4 @@
 *.js text eol=lf
 *.lock binary
 package-lock.json binary
-jest.config.js linguist-vendored=false
+jest.config.js linguist-vendored
