@@ -1,0 +1,13 @@
+{
+  "extends": "@sindresorhus/tsconfig",
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": false
+  },
+  "include": ["./src"]
+}
