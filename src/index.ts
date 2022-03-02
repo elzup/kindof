@@ -1,7 +1,24 @@
-export const kindof = (input: string, opts: { postfix?: string } = {}) => {
-  if (typeof input !== 'string') {
-    throw new TypeError(`Expected a string, got ${typeof input}`)
+export const kindof = (v: unknown) => {
+  switch (typeof v) {
+    case 'undefined':
+      return 'undefined'
+    case 'boolean':
+      return 'boolean'
+    case 'number':
+      return 'number'
+    case 'bigint':
+      return 'bigint'
+    case 'string':
+      return 'string'
+    case 'symbol':
+      return 'symbol'
+    case 'function':
+      return 'function'
+    case 'object':
+      if (v === null) return 'null'
+      if (Array.isArray(v)) return 'array'
+      return 'object'
+    default:
+      return 'unknown'
   }
-
-  return `${input} & ${opts.postfix || 'rainbows'}`
 }
