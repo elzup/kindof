@@ -24,7 +24,7 @@ typeof: 8 type `undefined | boolean | number | bigint | string | symbol | functi
 
 ```
 
-$ npm install kindof
+$ npm install @elzup/kindof
 
 ```
 
