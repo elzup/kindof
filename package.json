@@ -1,11 +1,10 @@
 {
   "name": "@elzup/kindof",
-  "version": "0.0.0",
+  "version": "0.3.0",
   "description": "advanced typeof for 10 type",
   "access": "public",
   "repository": "elzup/kindof",
   "license": "MIT",
-  
   "engines": {
     "node": ">=10"
   },
@@ -15,17 +14,16 @@
     "build": "tsc",
     "build:release": "rm -rf dist && tsc --project tsconfig.build.json",
     "pretest": "yarn build",
-    "release": "yarn build:release && yarn publish",
+    "release": "yarn build:release && yarn publish --access public",
     "test": "jest"
   },
   "files": [
     "dist"
   ],
   "keywords": [
-    ""
+    "typeof"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@sindresorhus/tsconfig": "2.0.0",
     "@swc/core": "1.2.146",
