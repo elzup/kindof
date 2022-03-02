@@ -31,7 +31,7 @@ $ npm install @elzup/kindof
 ## Usage
 
 ```js
-const kindof = require('@elzup/kindof')
+const { kindof } = require('@elzup/kindof')
 
 kindof(123)
 //=> 'number'
