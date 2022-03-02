@@ -1,19 +1,18 @@
+const directList = [
+  'undefined',
+  'boolean',
+  'number',
+  'bigint',
+  'string',
+  'symbol',
+  'function',
+]
+
 export const kindof = (v: unknown) => {
+  const tv = typeof v
+
+  if (directList.includes(tv)) return tv
   switch (typeof v) {
-    case 'undefined':
-      return 'undefined'
-    case 'boolean':
-      return 'boolean'
-    case 'number':
-      return 'number'
-    case 'bigint':
-      return 'bigint'
-    case 'string':
-      return 'string'
-    case 'symbol':
-      return 'symbol'
-    case 'function':
-      return 'function'
     case 'object':
       if (v === null) return 'null'
       if (Array.isArray(v)) return 'array'
