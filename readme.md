@@ -1,4 +1,4 @@
-# kindof
+# kindof [![](https://badgen.net/bundlephobia/minzip/@elzup/kindof)](https://bundlephobia.com/result?p=@elzup/kindof)
 
 > advanced typeof for 10 type
 
