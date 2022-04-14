@@ -1,9 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>elzup/renovate-config"
-  ],
-  "schedule": [
-    "every 12 months on the first day of the month"
+    "local>elzup/renovate-config:nodep"
   ]
 }
