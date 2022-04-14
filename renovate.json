@@ -3,4 +3,7 @@
   "extends": [
     "local>elzup/renovate-config"
   ]
+  "schedule": [
+    "every 12 months on the first day of the month"
+  ]
 }
