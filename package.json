@@ -6,7 +6,7 @@
   "repository": "elzup/kindof",
   "license": "MIT",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
