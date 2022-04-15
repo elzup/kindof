@@ -29,7 +29,6 @@
     "@swc/core": "1.2.146",
     "@swc/jest": "0.2.20",
     "@types/jest": "27.4.1",
-    "@types/react": "17.0.39",
     "eslint": "8.13.0",
     "eslint-config-nzap": "5.2.0",
     "jest": "27.5.1",
