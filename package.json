@@ -26,13 +26,13 @@
   "dependencies": {},
   "devDependencies": {
     "@sindresorhus/tsconfig": "2.0.0",
-    "@swc/core": "1.2.146",
+    "@swc/core": "1.2.165",
     "@swc/jest": "0.2.20",
     "@types/jest": "27.4.1",
     "eslint": "8.13.0",
     "eslint-config-nzap": "5.2.0",
     "jest": "27.5.1",
-    "prettier": "2.5.1",
-    "typescript": "4.6.2"
+    "prettier": "2.6.2",
+    "typescript": "4.6.3"
   }
 }
