@@ -28,7 +28,7 @@
     "@sindresorhus/tsconfig": "2.0.0",
     "@swc/core": "1.2.210",
     "@swc/jest": "0.2.21",
-    "@types/jest": "27.5.2",
+    "@types/jest": "28.1.4",
     "eslint": "8.19.0",
     "eslint-config-nzap": "5.3.2",
     "jest": "27.5.1",
