@@ -25,7 +25,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@sindresorhus/tsconfig": "3.0.1",
+    "@sindresorhus/tsconfig": "6.0.0",
     "@swc/core": "1.6.6",
     "@swc/jest": "0.2.36",
     "@types/jest": "29.5.12",
