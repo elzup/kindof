@@ -26,8 +26,8 @@
   "dependencies": {},
   "devDependencies": {
     "@sindresorhus/tsconfig": "3.0.1",
-    "@swc/core": "1.12.9",
-    "@swc/jest": "0.2.38",
+    "@swc/core": "1.15.11",
+    "@swc/jest": "0.2.39",
     "@types/jest": "29.5.14",
     "eslint": "8.57.1",
     "eslint-config-nzap": "7.0.0",
